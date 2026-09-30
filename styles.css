@@ -1,0 +1,151 @@
+body {
+    background-color:#22242a;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #4285f4;
+}
+
+.nav-link img {
+    border-radius: 50%;
+    border: 5px solid #094966;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 584px;
+    height: 46px;
+    padding: 0 14px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    background-color: #30333b;
+    transition: box-shadow 0.2s ease-in-out;
+    margin: 20px auto 0 auto;
+    box-sizing: border-box;
+}
+
+.search-form:hover,
+.search-form:focus-within {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    border-color: transparent;
+}
+
+.search-input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #202124;
+    height: 100%;
+}
+
+.search-box:hover,
+.search-box:focus-within {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: transparent;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: #9aa0a6;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn svg {
+  width: 24px;
+  height: 24px;
+  fill: #4285f4; /* Puedes cambiar los colores SVG según los íconos multitonos de Google */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.search-btn {
+    background-color: #30333b;
+    color: #ffffff;
+    border: #dfe1e5;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.search-btn:hover {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    border-top: 3px solid #30333b;
+    margin-bottom: 10px;
+}
