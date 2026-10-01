@@ -111,7 +111,7 @@ main {
 .icon-btn svg {
   width: 24px;
   height: 24px;
-  fill: #4285f4; /* Puedes cambiar los colores SVG según los íconos multitonos de Google */
+  fill: #4285f4;
 }
 
 .buttons {
